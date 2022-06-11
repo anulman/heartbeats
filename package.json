@@ -1,0 +1,9 @@
+{
+  "name": "heartbeats",
+  "version": "0.0.1",
+  "description": "evm-compatible contracts that power the big computer heartbeat network",
+  "repository": "https://github.com/anulman/heartbeats.bigcomputer.xyz",
+  "author": "@anulman <anulman@gmail.com>",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.1"
+}
