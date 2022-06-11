@@ -8,5 +8,8 @@
   "packageManager": "yarn@3.2.1",
   "dependencies": {
     "@openzeppelin/contracts": "^4.6.0"
+  },
+  "devDependencies": {
+    "@yarnpkg/sdks": "^3.0.0-rc.9"
   }
 }
