@@ -5,5 +5,8 @@
   "repository": "https://github.com/anulman/heartbeats.bigcomputer.xyz",
   "author": "@anulman <anulman@gmail.com>",
   "license": "MIT",
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "yarn@3.2.1",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0"
+  }
 }

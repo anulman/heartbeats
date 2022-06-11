@@ -33,15 +33,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@openzeppelin/contracts", "npm:4.6.0"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@openzeppelin/contracts", [\
+        ["npm:4.6.0", {\
+          "packageLocation": "./.yarn/cache/@openzeppelin-contracts-npm-4.6.0-1ab1fa16fc-1de06211b2.zip/node_modules/@openzeppelin/contracts/",\
+          "packageDependencies": [\
+            ["@openzeppelin/contracts", "npm:4.6.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["heartbeats", [\
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["heartbeats", "workspace:."]\
+            ["heartbeats", "workspace:."],\
+            ["@openzeppelin/contracts", "npm:4.6.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
